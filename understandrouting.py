@@ -16,7 +16,7 @@ def say(name):
 @app.route("/repeat/<num>/<name>")
 def hello(num,name):
     output=""
-    for i in (0,30,1):
+    for i in range(0,int(num),1):
         output+= name + " <br>"
     return output
 
