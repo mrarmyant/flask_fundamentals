@@ -1,0 +1,44 @@
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <style>
+        * {
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <form action='/result' method='post'>
+                    Name: <input type="text" name="name"><br> Dojo Location: <select name="loc">
+                        <option value="Dallas">Dallas</option>
+                        <option value="cec">Crappy East Coast</option>
+                        <option value="cwc">Crappy West Coast</option>
+
+                    </select> <br> Favorite Language: <select name="lan">
+                        <option value="js">JavaScript</option>
+                        <option value="python">Python</option>
+                        <option value="html">HTML</option>
+                        <option value="php">PHP</option>
+                        <option value="psd">Psuedo</option>
+                        <option value="en">English</option>
+                    </select> <br> Comment (optional): <textarea name='message'></textarea><br>
+                    <input type='submit' value='Button'>
+                </form>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
